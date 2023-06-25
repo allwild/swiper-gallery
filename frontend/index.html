@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js" defer></script>
+    <script src="./public/index.js" defer></script>
+    <script src="https://kit.fontawesome.com/631fd4a599.js" crossorigin="anonymous"></script>
+    <!-- <script src="./public/swiper.js" defer></script> -->
+    <link rel="stylesheet" href="./public/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,200;1,300;1,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap" rel="stylesheet"> 
+    <title>Document</title>
+  </head>
+  <body>
+    <main>
+        <!-- Slider main container -->
+        <div class="swiper">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            
+          </div>
+          <!-- If we need pagination -->
+          <div class="swiper-pagination"></div>
+    
+          <!-- If we need navigation buttons -->
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+    
+          <!-- If we need scrollbar -->
+          <div class="swiper-scrollbar"></div>
+          
+        </div>
+    
+        
+        <form>
+            <fieldset>
+                <legend>Snap, upload, and keep your memories forever – all for free!</legend>
+                <label id="uploadlabel"for="upload">
+                    <input id="upload" class="upload" type="file" name="file"/>
+                    Add your Photo 
+                </label>
+                <div class="input-wrapper">
+                    <input class="title" type="text" placeholder="Title here..." />
+                    <input class="artist" type="text" placeholder="Author here..." />
+                </div>
+                <button class="send" type="submit">Send</button>
+            </fieldset>
+        </form>
+    </main>
+  </body>
+</html>

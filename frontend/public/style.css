@@ -1,0 +1,202 @@
+* {
+    color: white;
+}
+
+body {
+    background-color: rgb(70, 70, 70);
+    
+}
+
+main {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+
+form {
+    width: 600px;
+    font-family: 'Poppins', sans-serif;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input {
+    height: 30px;
+}
+
+img {
+    width: inherit;
+    height: inherit;
+    object-fit: cover;
+}
+
+button, 
+input[type="text"] {
+    color: black
+}
+
+label {
+    text-align: center;
+    padding: 2px 5px;
+    background-color: rgb(255, 255, 255);
+    border: 4px solid coral;
+    color: coral;
+    cursor: pointer;
+}
+
+label:hover {
+    background-color: rgb(251, 201, 182);
+}
+
+label:active {
+    background-color: rgb(255, 176, 145);
+}
+
+button {
+    height: 38px;
+    width: auto;
+    color: rgb(255, 255, 255);
+    background-color: rgb(252, 127, 78);
+    font-size: 18px;
+    border: 4px solid rgb(255, 187, 128);
+    cursor: pointer;
+
+}
+
+button:active {
+    background-color: rgb(255, 107, 48);
+}
+
+button:hover {
+    background-color: rgb(254, 149, 107);
+}
+
+.tile {
+    width: inherit;
+    height: inherit;
+    
+}
+
+.swiper {
+    width: 600px;
+    height: 400px;
+  }
+  
+.swiper-slide {
+    border: none;
+    position: relative;
+}
+ 
+.swiper-wrapper {
+    border: none;
+}
+  
+.delete {
+    color: rgba(255, 255, 255, 0.3);
+    position: absolute;
+    top: -170px;
+    left: 20px;
+    cursor: pointer;
+}
+
+.delete:hover {
+    box-shadow: 11px 11px 11px rgb(250, 0, 0);
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.titlebar {
+    position: absolute;
+    height: 30px;
+    background-color: rgba(58, 58, 58, 0.89);
+    bottom: -33px;
+    width: 100%;
+    z-index: 1;
+    padding: 5px 15px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+}
+
+.titleup {
+    animation: 0.5s forwards slidein;
+}
+
+@keyframes slidein {
+    from {
+      bottom: -33px;
+    }
+  
+    to {
+      bottom: 0;
+    }
+  }
+
+.titledown {
+    animation: 0.5s forwards slideout;
+}
+
+@keyframes slideout {
+    from {
+      bottom: 0px;
+    }
+  
+    to {
+      bottom: -33px;
+    }
+  }
+
+.verticalin {
+    animation: 0.5s forwards verticalin;
+}
+
+@keyframes verticalin {
+    from {
+      top: -170px;
+    }
+  
+    to {
+      top: 30px;
+    }
+  }
+
+.verticalout {
+    animation: 0.5s forwards verticalout;
+}
+
+@keyframes verticalout {
+    from {
+      top: 30px;
+    }
+  
+    to {
+      top: -170px;
+    }
+  }
+
+/*   .swiper-button-prev div,
+  .swiper-button-next div,
+  .swiper-pagination div{
+    color: white;
+  } */
+
+  .upload {
+    display: none;
+  }
+
+  .input-wrapper {
+    width: 100%;
+    display: flex;
+    gap: 10px;
+  }
+
+  .input-wrapper * {
+    text-align: center;
+    flex-grow: 1;
+  }

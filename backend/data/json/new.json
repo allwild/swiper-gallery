@@ -1,0 +1,30 @@
+[
+    {
+        "url": "2023-05-02_13:18:12.jpg",
+        "date_of_upload": "2023-05-02",
+        "time_of_upload": "13:18:12",
+        "title": "The Temptation of St. Anthony",
+        "artist": "Salvador Dalí"
+    },
+    {
+        "url": "2023-05-02_13:18:57.jpg",
+        "date_of_upload": "2023-05-02",
+        "time_of_upload": "13:18:57",
+        "title": "Starry Night",
+        "artist": "Vincent van Gogh"
+    },
+    {
+        "url": "2023-05-02_13:19:39.jpg",
+        "date_of_upload": "2023-05-02",
+        "time_of_upload": "13:19:39",
+        "title": "Figures at Seaside",
+        "artist": "Pablo Picasso"
+    },
+    {
+        "url": "2023-05-02_21:30:34.jpg",
+        "date_of_upload": "2023-05-02",
+        "time_of_upload": "21:30:34",
+        "title": "Without Hope",
+        "artist": "Frida Kahlo"
+    }
+]
